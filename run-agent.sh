@@ -6,7 +6,7 @@
 export PATH=/Users/macmini/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH
 
 AGENT_NAME="$1"
-AGENT_DIR="$HOME/agents"
+AGENT_DIR="$HOME/macmini-control-room/agents"
 AGENT_FILE="$AGENT_DIR/$AGENT_NAME.md"
 LOG_DIR="$HOME/agent-logs"
 LOG="$LOG_DIR/$AGENT_NAME.log"

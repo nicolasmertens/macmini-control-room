@@ -1,0 +1,27 @@
+[
+  {
+    "id": "auto-fix",
+    "name": "Auto-fix",
+    "goal": "Fix open GitHub issues labeled auto-fix, one at a time",
+    "schedule": "*/30 * * * *",
+    "icon": "\ud83d\udd27",
+    "timeout": 1800
+  },
+  {
+    "id": "morning-report",
+    "name": "Morning Report",
+    "goal": "Send Nicolas a summary of overnight work via iMessage",
+    "schedule": "0 6 * * *",
+    "icon": "\ud83d\udccb",
+    "timeout": 120
+  },
+  {
+    "id": "dashboard",
+    "name": "Dashboard",
+    "goal": "Serve the Control Room web UI on port 3847",
+    "schedule": "@reboot",
+    "icon": "\ud83d\udcca",
+    "timeout": 0,
+    "type": "service"
+  }
+]
